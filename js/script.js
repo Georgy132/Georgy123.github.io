@@ -15,7 +15,7 @@ $('form').submit(function(e) {
         $(this).find("input").val("");
         $('#sender').fadeOut();
         $('.overlay__dark, #thanks').fadeIn();
-        $('.overlay__dark, #thanks').fadeOut( 3000 );
+        $('.overlay__dark, #thanks').fadeOut( 4000 );
         $('form').trigger('reset');
     });
     return false;
