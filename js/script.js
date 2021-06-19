@@ -10,7 +10,7 @@ modalbtn.addEventListener('click', ()=>{
 
 modalClose.addEventListener('click', ()=>{
     modal.style = 'display: none';
-    overlayDark.style = 'display: none';
+    overlayDark.style = 'display: none'; 
 })
 
 
