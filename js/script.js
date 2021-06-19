@@ -9,8 +9,9 @@ modalbtn.addEventListener('click', ()=>{
 });
 
 modalClose.addEventListener('click', ()=>{
+    $('form').trigger('reset');
     modal.style = 'display: none';
-    overlayDark.style = 'display: none'; 
+    overlayDark.style = 'display: none';
 })
 
 
