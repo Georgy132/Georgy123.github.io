@@ -54,8 +54,13 @@
         border: none;
         padding: 10px 0px;
         background-color: lightsteelblue;
+
+        &:active{
+            transform: scale(1.05);
+        }
         
         &:focus{
+            
             outline: none;
             
         }
