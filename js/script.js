@@ -18,7 +18,7 @@ $('form').submit(function(e) {
         $('.overlay__dark, #thanks').fadeOut( 4000 );
         $('form').trigger('reset');
     });
-    return false;
+    return false; 
 });
 
 modalbtn.addEventListener('click', ()=>{
