@@ -10,7 +10,7 @@ $mail->CharSet = 'utf-8';
 
 // $mail->SMTPDebug = 3;                               // Enable verbose debug output
 
-$mail->isSMTP();                                      // Set mailer to use SMTP
+/* $mail->isSMTP();     */                                  // Set mailer to use SMTP
 $mail->Host = 'smtp.gmail.com';  // Specify main and backup SMTP servers
 $mail->SMTPAuth = true;                               // Enable SMTP authentication
 $mail->Username = '89120500709u@gmail.com';                 // Наш логин
