@@ -1,0 +1,31 @@
+.menu {
+    &__inner{
+        padding-top: 150px;
+        display: grid;
+        grid-template-columns: 250px 1fr;
+        grid-template-rows: minmax(400px, auto);
+    }
+    &__tabs {
+        padding: 5px 5px 0px;
+        background-color: blue;
+    }
+    &__tab{
+        width: 100%;
+        height: 30px;
+        background-color: yellow;
+        margin-bottom: 10px;
+    }
+    &__content{
+        position: relative;
+        &:before{
+            content: "Centered";
+            position: absolute;
+            width: 120px;
+            height: 120px;
+            background-color:rgba(lightsteelblue, 0.7);
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+    }
+}

@@ -1,0 +1,26 @@
+@media (max-width: 768px) {
+    .menu__inner{
+        display: block;
+        
+    }
+    .menu__tabs{
+        display: flex;
+        height: 40px;
+        
+    }
+    .menu__tab{
+        margin-right: 10px;
+        margin-bottom: 5px;
+        &:nth-last-child(1){
+            margin-right: 0;
+        }
+    }
+    .footer__inner{
+        display: unset;
+    }
+    .footer__box{
+        width: 100%;
+    }
+    
+    
+}

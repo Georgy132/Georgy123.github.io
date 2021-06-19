@@ -1,0 +1,25 @@
+.header {
+    position: fixed;
+    width: 100%;
+    z-index: 3;
+    &__inner{
+        text-align: center;
+        height: 150px;
+        background-color: lightblue;
+        padding-top: 60px;
+    }
+    &__btn{
+        width: 200px;
+        text-align: center;
+        padding: 15px 0px;
+        border: none;
+        outline: none;
+        border-radius: 5px;
+        background-color: yellowgreen;
+        color: #ffff;
+        &:focus{
+            outline: none;
+            
+        }
+    }
+}
